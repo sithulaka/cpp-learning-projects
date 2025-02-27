@@ -7,7 +7,7 @@
 - Tracking passenger details
 - Displaying flight statistics
 
-## 🔧 Prerequisites
+## ⚙️ Prerequisites
 Ensure you have the following installed:
 
 ### **Linux/macOS**
@@ -56,7 +56,7 @@ sh build.sh  # Builds the project
 sh run.sh    # Runs the program
 ```
 
-## Features
+## ✨ Features
 - **Add Plane:** Allows adding new planes to the system.
 - **Update Plane:** Modify plane details.
 - **Delete Plane:** Remove a plane from the system.
