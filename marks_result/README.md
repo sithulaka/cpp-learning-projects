@@ -1,6 +1,6 @@
 # marks_result
 
-## Overview
+## 🔹 Overview
 **marks_result** is a simple C++ program for managing student marks and calculating results. It enables users to:
 - Input student marks
 - Calculate total and average scores
@@ -36,7 +36,7 @@ marks_result/
 │── README.md     # Project documentation
 ```
 
-## 🛠️ How to Build and Run
+## 🚀 How to Build and Run
 
 ### **Linux/macOS**
 ```sh
@@ -59,10 +59,10 @@ sh run.sh    # Runs the program
 - **Calculate Total & Average:** Computes total and average marks per student.
 - **Display Results:** Shows student-wise and class performance.
 
-## Contribution
+## 🤝 Contribution
 Feel free to contribute by adding new features, fixing bugs, or improving the documentation!
 
-## Connect with me
+## 🌐 Connect with me
 <p align="left">
 <a href="https://linkedin.com/in/sithulaka" target="blank"><img align="center" src="https://github.com/sithulaka/sithulaka/blob/main/image/icon/linked-in-alt.svg" alt="sithulaka" height="30" width="40" /></a>
 <a href="https://twitter.com/sithulaka" target="blank"><img align="center" src="https://github.com/sithulaka/sithulaka/blob/main/image/icon/twitter.svg" alt="sithulaka" height="30" width="40" /></a>

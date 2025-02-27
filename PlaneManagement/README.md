@@ -1,6 +1,6 @@
 # PlaneManagement
 
-## Overview
+## 🔹 Overview
 **PlaneManagement** is a C++ project that simulates an airplane management system. It handles functionalities such as:
 - Adding, updating, and deleting planes
 - Managing flight schedules
@@ -38,7 +38,7 @@ PlaneManagement/
 │── README.md     # Project documentation
 ```
 
-## 🛠️ How to Build and Run
+## 🚀 How to Build and Run
 
 ### **Linux/macOS**
 ```sh
@@ -63,10 +63,10 @@ sh run.sh    # Runs the program
 - **Manage Flights:** Track flight schedules and passenger details.
 - **Statistics:** Display flight statistics and analysis.
 
-## Contribution
+## 🤝 Contribution
 Feel free to contribute by adding new features, fixing bugs, or improving the documentation!
 
-## Connect with me
+## 🌐 Connect with me
 <p align="left">
 <a href="https://linkedin.com/in/sithulaka" target="blank"><img align="center" src="https://github.com/sithulaka/sithulaka/blob/main/image/icon/linked-in-alt.svg" alt="sithulaka" height="30" width="40" /></a>
 <a href="https://twitter.com/sithulaka" target="blank"><img align="center" src="https://github.com/sithulaka/sithulaka/blob/main/image/icon/twitter.svg" alt="sithulaka" height="30" width="40" /></a>
