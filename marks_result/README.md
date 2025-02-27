@@ -6,7 +6,7 @@
 - Calculate total and average scores
 - Display individual and class performance
 
-## 🔧 Prerequisites
+## ⚙️ Prerequisites
 Ensure you have the following installed:
 
 ### **Linux/macOS**
@@ -54,7 +54,7 @@ sh build.sh  # Builds the project
 sh run.sh    # Runs the program
 ```
 
-## Features
+## ✨ Features
 - **Input Marks:** Enter student scores for multiple subjects.
 - **Calculate Total & Average:** Computes total and average marks per student.
 - **Display Results:** Shows student-wise and class performance.
