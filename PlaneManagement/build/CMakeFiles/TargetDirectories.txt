@@ -1,3 +1,0 @@
-/home/shoon/Work/div/cpp/PlaneManagement/build/CMakeFiles/executable.dir
-/home/shoon/Work/div/cpp/PlaneManagement/build/CMakeFiles/edit_cache.dir
-/home/shoon/Work/div/cpp/PlaneManagement/build/CMakeFiles/rebuild_cache.dir
