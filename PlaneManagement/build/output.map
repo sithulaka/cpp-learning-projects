@@ -1,0 +1,826 @@
+
+Merging program properties
+
+Removed property 0xc0000002 to merge /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o (not found) and /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o (0x3)
+Removed property 0xc0000002 to merge /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o (not found) and /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o (0x3)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libstdc++.so.6                CMakeFiles/executable.dir/src/find_first_available.cpp.o (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@@GLIBCXX_3.4.21)
+libgcc_s.so.1                 CMakeFiles/executable.dir/src/buy_seat.cpp.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     CMakeFiles/executable.dir/src/find_first_available.cpp.o (strlen@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000       0x10 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/main.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/menu.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/seats.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+LOAD CMakeFiles/executable.dir/src/buy_seat.cpp.o
+LOAD CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+LOAD CMakeFiles/executable.dir/src/find_first_available.cpp.o
+LOAD CMakeFiles/executable.dir/src/main.cpp.o
+LOAD CMakeFiles/executable.dir/src/menu.cpp.o
+LOAD CMakeFiles/executable.dir/src/seats.cpp.o
+LOAD CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib64/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000318                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000318       0x1c
+ *(.interp)
+ .interp        0x0000000000000318       0x1c /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.property
+                0x0000000000000338       0x20
+ .note.gnu.property
+                0x0000000000000338       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000358       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000358       0x24 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x000000000000037c       0x20
+ .note.ABI-tag  0x000000000000037c       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000003a0       0x3c
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000003a0       0x3c /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x00000000000003e0      0x558
+ *(.dynsym)
+ .dynsym        0x00000000000003e0      0x558 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000000938      0xa1c
+ *(.dynstr)
+ .dynstr        0x0000000000000938      0xa1c /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x0000000000001354       0x72
+ *(.gnu.version)
+ .gnu.version   0x0000000000001354       0x72 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x00000000000013c8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000013c8        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x00000000000013c8       0xb0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000013c8       0xb0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x0000000000001478      0x1f8
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000001478        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x0000000000001478       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x0000000000001490       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x00000000000014a8       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel
+                0x00000000000014c0       0x60 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000001520       0xd8 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x00000000000015f8       0x30 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000001628        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x0000000000001628       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x0000000000001640       0x30 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.eh_frame
+                0x0000000000001670        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000001670      0x3d8
+ *(.rela.plt)
+ .rela.plt      0x0000000000001670      0x3d8 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.iplt)
+
+.relr.dyn
+ *(.relr.dyn)
+                0x0000000000002000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000002000       0x17
+ *(SORT_NONE(.init))
+ .init          0x0000000000002000       0x12 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+                0x0000000000002000                _init
+ .init          0x0000000000002012        0x5 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000002020      0x2a0
+ *(.plt)
+ .plt           0x0000000000002020      0x2a0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000002030                operator new[](unsigned long)@@GLIBCXX_3.4
+                0x0000000000002040                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::capacity() const@@GLIBCXX_3.4.21
+                0x0000000000002050                std::istream::operator>>(short&)@@GLIBCXX_3.4
+                0x0000000000002060                std::out_of_range::out_of_range(char const*)@@GLIBCXX_3.4.21
+                0x0000000000002070                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::insert(unsigned long, char const*)@@GLIBCXX_3.4.21
+                0x0000000000002080                strlen@@GLIBC_2.2.5
+                0x0000000000002090                __cxa_allocate_exception@@CXXABI_1.3
+                0x00000000000020a0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)@@GLIBCXX_3.4.21
+                0x00000000000020b0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_set_length(unsigned long)@@GLIBCXX_3.4.21
+                0x00000000000020c0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::size() const@@GLIBCXX_3.4.21
+                0x00000000000020d0                std::__throw_logic_error(char const*)@@GLIBCXX_3.4
+                0x00000000000020e0                __cxa_free_exception@@CXXABI_1.3
+                0x00000000000020f0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_local_data()@@GLIBCXX_3.4.21
+                0x0000000000002100                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data(char*)@@GLIBCXX_3.4.21
+                0x0000000000002110                __cxa_atexit@@GLIBC_2.2.5
+                0x0000000000002120                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+                0x0000000000002130                std::ostream::operator<<(short)@@GLIBCXX_3.4
+                0x0000000000002140                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@@GLIBCXX_3.4
+                0x0000000000002150                std::ostream::operator<<(std::ostream& (*)(std::ostream&))@@GLIBCXX_3.4
+                0x0000000000002160                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@@GLIBCXX_3.4.21
+                0x0000000000002170                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(unsigned long, char)@@GLIBCXX_3.4.21
+                0x0000000000002180                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data() const@@GLIBCXX_3.4.21
+                0x0000000000002190                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@@GLIBCXX_3.4.21
+                0x00000000000021a0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char)@@GLIBCXX_3.4.21
+                0x00000000000021b0                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char)@@GLIBCXX_3.4
+                0x00000000000021c0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)@@GLIBCXX_3.4.21
+                0x00000000000021d0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()@@GLIBCXX_3.4.21
+                0x00000000000021e0                std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char&)@@GLIBCXX_3.4
+                0x00000000000021f0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(char const*)@@GLIBCXX_3.4.21
+                0x0000000000002200                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string()@@GLIBCXX_3.4.21
+                0x0000000000002210                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000002220                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::insert(unsigned long, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+                0x0000000000002230                __cxa_throw@@CXXABI_1.3
+                0x0000000000002240                std::ostream::operator<<(int)@@GLIBCXX_3.4
+                0x0000000000002250                _Unwind_Resume@@GCC_3.0
+                0x0000000000002260                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000002270                toupper@@GLIBC_2.2.5
+                0x0000000000002280                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(char const*)@@GLIBCXX_3.4.21
+                0x0000000000002290                operator delete[](void*, unsigned long)@@CXXABI_1.3.9
+                0x00000000000022a0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+                0x00000000000022b0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_capacity(unsigned long)@@GLIBCXX_3.4.21
+ *(.iplt)
+
+.plt.got        0x00000000000022c0       0x10
+ *(.plt.got)
+ .plt.got       0x00000000000022c0       0x10 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000022c0                __cxa_finalize@@GLIBC_2.2.5
+                0x00000000000022c8                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@@GLIBCXX_3.4.21
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x00000000000022d0     0x18bc
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000000022d0       0x22 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000022d0                _start
+ .text          0x00000000000022f2        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x00000000000022f2        0xe 
+ .text          0x0000000000002300       0xb9 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .text          0x00000000000023b9      0x12c CMakeFiles/executable.dir/src/buy_seat.cpp.o
+                0x00000000000023b9                buy_seat(char, short)
+ .text          0x00000000000024e5      0x12d CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+                0x00000000000024e5                cancel_seat(char, short)
+ .text          0x0000000000002612      0x279 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002612                find_first_available[abi:cxx11]()
+ .text._ZNSt11char_traitsIcE6lengthEPKc
+                0x000000000000288b       0x32 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x000000000000288b                std::char_traits<char>::length(char const*)
+ *fill*         0x00000000000028bd        0x1 
+ .text._ZZNSt7__cxx119to_stringEiENKUlPcmE_clES0_m
+                0x00000000000028be       0x4a CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x00000000000028be                std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1}::operator()(char*, unsigned long) const
+ .text._ZNSt7__cxx119to_stringEi
+                0x0000000000002908       0x86 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002908                std::__cxx11::to_string(int)
+ .text._ZNSt8__detail14__to_chars_lenIjEEjT_i
+                0x000000000000298e       0x88 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x000000000000298e                unsigned int std::__detail::__to_chars_len<unsigned int>(unsigned int, int)
+ .text._ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+                0x0000000000002a16       0x46 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002a16                __gnu_cxx::char_traits<char>::length(char const*)
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD2Ev
+                0x0000000000002a5c       0x24 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002a5c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+                0x0000000000002a5c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+ .text._ZNSt8__detail18__to_chars_10_implIjEEvPcjT_
+                0x0000000000002a80      0x2a7 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002a80                void std::__detail::__to_chars_10_impl<unsigned int>(char*, unsigned int, unsigned int)
+ *fill*         0x0000000000002d27        0x1 
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE22__resize_and_overwriteIZNS_9to_stringEiEUlPcmE_EEvmT_EN11_TerminatorD2Ev
+                0x0000000000002d28       0x29 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002d28                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::__resize_and_overwrite<std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1}>(unsigned long, std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1})::_Terminator::~_Terminator()
+                0x0000000000002d28                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::__resize_and_overwrite<std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1}>(unsigned long, std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1})::_Terminator::~_Terminator()
+ *fill*         0x0000000000002d51        0x1 
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE22__resize_and_overwriteIZNS_9to_stringEiEUlPcmE_EEvmT_
+                0x0000000000002d52       0x9c CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002d52                void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::__resize_and_overwrite<std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1}>(unsigned long, std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1})
+ .text._ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEPKS5_OS8_
+                0x0000000000002dee       0x49 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002dee                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ *fill*         0x0000000000002e37        0x1 
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEmcRKS3_
+                0x0000000000002e38       0x78 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002e38                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&)
+                0x0000000000002e38                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(unsigned long, char, std::allocator<char> const&)
+ .text._ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_S5_
+                0x0000000000002eb0       0x4a CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002eb0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char)
+ .text._ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_S9_
+                0x0000000000002efa       0xe5 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002efa                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+ .text._ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EEOS8_PKS5_
+                0x0000000000002fdf       0x47 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000002fdf                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&, char const*)
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+                0x0000000000003026       0xa0 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000003026                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+                0x0000000000003026                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+ .text._ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+                0x00000000000030c6       0x21 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x00000000000030c6                __gnu_cxx::char_traits<char>::eq(char const&, char const&)
+ .text._ZSt4moveIRZNSt7__cxx119to_stringEiEUlPcmE_EONSt16remove_referenceIT_E4typeEOS5_
+                0x00000000000030e7        0xe CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x00000000000030e7                std::remove_reference<std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1}&>::type&& std::move<std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1}&>(std::__cxx11::to_string(int)::{lambda(char*, unsigned long)#1}&)
+ *fill*         0x00000000000030f5        0x1 
+ .text._ZNSt15__new_allocatorIcED2Ev
+                0x00000000000030f6        0xb CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x00000000000030f6                std::__new_allocator<char>::~__new_allocator()
+                0x00000000000030f6                std::__new_allocator<char>::~__new_allocator()
+ *fill*         0x0000000000003101        0x1 
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC2EPS4_
+                0x0000000000003102       0x1a CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000003102                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+                0x0000000000003102                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD2Ev
+                0x000000000000311c       0x2a CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x000000000000311c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+                0x000000000000311c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+                0x0000000000003146      0x113 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000003146                void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ .text._ZSt4moveIRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEONSt16remove_referenceIT_E4typeEOS8_
+                0x0000000000003259        0xe CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000003259                std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::type&& std::move<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+ .text          0x0000000000003267      0x4e9 CMakeFiles/executable.dir/src/main.cpp.o
+                0x0000000000003267                main
+ .text          0x0000000000003750      0x240 CMakeFiles/executable.dir/src/menu.cpp.o
+                0x0000000000003750                menu()
+ .text          0x0000000000003990        0x0 CMakeFiles/executable.dir/src/seats.cpp.o
+ .text          0x0000000000003990      0x1fc CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+                0x0000000000003990                show_seating_plan()
+ .text          0x0000000000003b8c        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .text          0x0000000000003b8c        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x0000000000003b8c        0x9
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000003b8c        0x4 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003b8c                _fini
+ .fini          0x0000000000003b90        0x5 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000004000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000004000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000004000      0x334
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000004000        0x4 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000004000                _IO_stdin_used
+ *fill*         0x0000000000004004        0x4 
+ .rodata        0x0000000000004008       0x27 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ *fill*         0x000000000000402f        0x1 
+ .rodata        0x0000000000004030       0x27 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ *fill*         0x0000000000004057        0x1 
+ .rodata        0x0000000000004058       0x8d CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ *fill*         0x00000000000040e5        0x3 
+ .rodata        0x00000000000040e8       0xcf CMakeFiles/executable.dir/src/main.cpp.o
+ *fill*         0x00000000000041b7        0x1 
+ .rodata        0x00000000000041b8      0x130 CMakeFiles/executable.dir/src/menu.cpp.o
+ .rodata        0x00000000000042e8        0x3 CMakeFiles/executable.dir/src/seats.cpp.o
+ *fill*         0x00000000000042eb        0x5 
+ .rodata        0x00000000000042f0       0x44 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000004334      0x114
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000004334      0x114 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000004334                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000004448      0x4b4
+ *(.eh_frame)
+ .eh_frame      0x0000000000004448       0x30 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x0000000000004478        0x0 
+ .eh_frame      0x0000000000004478       0x40 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .eh_frame      0x00000000000044b8       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000000044d0       0x48 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .eh_frame      0x0000000000004518       0x28 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000004540      0x310 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                                        0x348 (size before relaxing)
+ .eh_frame      0x0000000000004850       0x60 CMakeFiles/executable.dir/src/main.cpp.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x00000000000048b0       0x28 CMakeFiles/executable.dir/src/menu.cpp.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x00000000000048d8       0x20 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x00000000000048f8        0x4 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ *(.eh_frame.*)
+
+.sframe         0x00000000000048fc        0x0
+ *(.sframe)
+ .sframe        0x00000000000048fc        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.sframe.*)
+
+.gcc_except_table
+                0x00000000000048fc       0x84
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x00000000000048fc        0xf CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .gcc_except_table
+                0x000000000000490b        0xf CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .gcc_except_table._ZNSt7__cxx119to_stringEi
+                0x000000000000491a        0x4 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .gcc_except_table
+                0x000000000000491e       0x62 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000005d68                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000005d68        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000005d68        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000005d68       0x10
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000005d68        0x8 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .init_array    0x0000000000005d70        0x8 CMakeFiles/executable.dir/src/main.cpp.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000005d78        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000005d78        0x8 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000005d80       0x18
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ *fill*         0x0000000000005d80        0x0 
+ .data.rel.ro   0x0000000000005d80       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000005d80                typeinfo for std::out_of_range@@GLIBCXX_3.4
+
+.dynamic        0x0000000000005d98      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000005d98      0x200 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000005d98                _DYNAMIC
+
+.got            0x0000000000005f98       0x48
+ *(.got)
+ .got           0x0000000000005f98       0x48 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000005fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000005fe8      0x160
+ *(.got.plt)
+ .got.plt       0x0000000000005fe8      0x160 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000005fe8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x0000000000006160       0x60
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000006160        0x4 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000006160                data_start
+                0x0000000000006160                __data_start
+ .data          0x0000000000006164        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000006164        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ *fill*         0x0000000000006164        0x4 
+ .data.rel.local
+                0x0000000000006168        0x8 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+                0x0000000000006168                __dso_handle
+ .data          0x0000000000006170        0x0 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000006170        0x8 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+                0x0000000000006170                DW.ref.__gxx_personality_v0
+ .data          0x0000000000006178        0x0 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ *fill*         0x0000000000006178        0x8 
+ .data          0x0000000000006180       0x14 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x0000000000006180                arr_values
+                0x0000000000006190                label
+ *fill*         0x0000000000006194        0xc 
+ .data.rel      0x00000000000061a0       0x20 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+                0x00000000000061a0                arrays
+ .data          0x00000000000061c0        0x0 CMakeFiles/executable.dir/src/main.cpp.o
+ .data          0x00000000000061c0        0x0 CMakeFiles/executable.dir/src/menu.cpp.o
+ .data          0x00000000000061c0        0x0 CMakeFiles/executable.dir/src/seats.cpp.o
+ .data          0x00000000000061c0        0x0 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+ .data          0x00000000000061c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .data          0x00000000000061c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x00000000000061c0        0x0
+ .tm_clone_table
+                0x00000000000061c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .tm_clone_table
+                0x00000000000061c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+
+.data1
+ *(.data1)
+                0x00000000000061c0                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x00000000000061c0                . = ALIGN (ALIGNOF (NEXT_SECTION))
+                0x00000000000061c0                __bss_start = .
+
+.bss            0x00000000000061c0      0x2c8
+ *(.dynbss)
+ *fill*         0x00000000000061c0        0x0 
+ .dynbss        0x00000000000061c0      0x238 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000061c0                std::cout@@GLIBCXX_3.4
+                0x00000000000062e0                std::cin@@GLIBCXX_3.4
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000063f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x00000000000063f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+ .bss           0x00000000000063f8        0x1 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .bss           0x00000000000063f9        0x0 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .bss           0x00000000000063f9        0x0 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .bss           0x00000000000063f9        0x0 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ *fill*         0x00000000000063f9        0x7 
+ .bss           0x0000000000006400       0x46 CMakeFiles/executable.dir/src/main.cpp.o
+                0x0000000000006400                result
+                0x0000000000006420                seat_no[abi:cxx11]
+ .bss           0x0000000000006446        0x0 CMakeFiles/executable.dir/src/menu.cpp.o
+ *fill*         0x0000000000006446        0x2 
+ .bss           0x0000000000006448       0x3e CMakeFiles/executable.dir/src/seats.cpp.o
+                0x0000000000006448                A
+                0x0000000000006458                B
+                0x0000000000006468                C
+                0x0000000000006478                D
+ .bss           0x0000000000006486        0x0 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+ .bss           0x0000000000006486        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .bss           0x0000000000006486        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x0000000000006488                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000006486        0x2 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000006488                . = ALIGN (0x8)
+                0x0000000000006488                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000008488        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000008488                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000008488                . = ALIGN (0x8)
+                0x0000000000006488                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000008488                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x1f
+ *(.comment)
+ .comment       0x0000000000000000       0x1f /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+                                         0x20 (size before relaxing)
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/main.cpp.o
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/menu.cpp.o
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/seats.cpp.o
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+ .comment       0x000000000000001f       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x2a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .debug_aranges
+                0x0000000000000030       0x30 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .debug_aranges
+                0x0000000000000060      0x190 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .debug_aranges
+                0x00000000000001f0       0x30 CMakeFiles/executable.dir/src/main.cpp.o
+ .debug_aranges
+                0x0000000000000220       0x30 CMakeFiles/executable.dir/src/menu.cpp.o
+ .debug_aranges
+                0x0000000000000250       0x20 CMakeFiles/executable.dir/src/seats.cpp.o
+ .debug_aranges
+                0x0000000000000270       0x30 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x24a6a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x4edd CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .debug_info    0x0000000000004edd     0x4edd CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .debug_info    0x0000000000009dba     0x660f CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .debug_info    0x00000000000103c9     0x5597 CMakeFiles/executable.dir/src/main.cpp.o
+ .debug_info    0x0000000000015960     0x52cd CMakeFiles/executable.dir/src/menu.cpp.o
+ .debug_info    0x000000000001ac2d     0x4dc5 CMakeFiles/executable.dir/src/seats.cpp.o
+ .debug_info    0x000000000001f9f2     0x5078 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+
+.debug_abbrev   0x0000000000000000     0x3750
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x778 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .debug_abbrev  0x0000000000000778      0x778 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .debug_abbrev  0x0000000000000ef0      0xa64 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .debug_abbrev  0x0000000000001954      0x81b CMakeFiles/executable.dir/src/main.cpp.o
+ .debug_abbrev  0x000000000000216f      0x7ab CMakeFiles/executable.dir/src/menu.cpp.o
+ .debug_abbrev  0x000000000000291a      0x6bd CMakeFiles/executable.dir/src/seats.cpp.o
+ .debug_abbrev  0x0000000000002fd7      0x779 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+
+.debug_line     0x0000000000000000     0x1391
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x1e4 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+ .debug_line    0x00000000000001e4      0x1e4 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .debug_line    0x00000000000003c8      0x79f CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .debug_line    0x0000000000000b67      0x30a CMakeFiles/executable.dir/src/main.cpp.o
+ .debug_line    0x0000000000000e71      0x1cf CMakeFiles/executable.dir/src/menu.cpp.o
+ .debug_line    0x0000000000001040      0x134 CMakeFiles/executable.dir/src/seats.cpp.o
+ .debug_line    0x0000000000001174      0x21d CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x7eb9
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x7eb9 CMakeFiles/executable.dir/src/buy_seat.cpp.o
+                                       0x6941 (size before relaxing)
+ .debug_str     0x0000000000007eb9     0x6948 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .debug_str     0x0000000000007eb9     0x7cdd CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .debug_str     0x0000000000007eb9     0x6f73 CMakeFiles/executable.dir/src/main.cpp.o
+ .debug_str     0x0000000000007eb9     0x6c96 CMakeFiles/executable.dir/src/menu.cpp.o
+ .debug_str     0x0000000000007eb9     0x6850 CMakeFiles/executable.dir/src/seats.cpp.o
+ .debug_str     0x0000000000007eb9     0x6a78 CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000      0x58a
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000      0x58a CMakeFiles/executable.dir/src/buy_seat.cpp.o
+                                        0x419 (size before relaxing)
+ .debug_line_str
+                0x000000000000058a      0x422 CMakeFiles/executable.dir/src/cancel_seat.cpp.o
+ .debug_line_str
+                0x000000000000058a      0x477 CMakeFiles/executable.dir/src/find_first_available.cpp.o
+ .debug_line_str
+                0x000000000000058a      0x449 CMakeFiles/executable.dir/src/main.cpp.o
+ .debug_line_str
+                0x000000000000058a      0x3f1 CMakeFiles/executable.dir/src/menu.cpp.o
+ .debug_line_str
+                0x000000000000058a      0x3fe CMakeFiles/executable.dir/src/seats.cpp.o
+ .debug_line_str
+                0x000000000000058a      0x44a CMakeFiles/executable.dir/src/show_seating_plan.cpp.o
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x0000000000000000      0x13e
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x0000000000000000      0x13e CMakeFiles/executable.dir/src/find_first_available.cpp.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(bin/executable elf64-x86-64)

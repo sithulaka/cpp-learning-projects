@@ -1,0 +1,630 @@
+
+Merging program properties
+
+Removed property 0xc0000002 to merge /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o (not found) and /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o (0x3)
+Removed property 0xc0000002 to merge /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o (not found) and /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o (0x3)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libstdc++.so.6                CMakeFiles/executable.dir/src/main.cpp.o (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@@GLIBCXX_3.4.21)
+libgcc_s.so.1                 CMakeFiles/executable.dir/src/main.cpp.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     CMakeFiles/executable.dir/src/main.cpp.o (strlen@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000       0x10 CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000        0x8 CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000       0x10 CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000       0x10 CMakeFiles/executable.dir/src/main.cpp.o
+ .group         0x0000000000000000        0xc CMakeFiles/executable.dir/src/main.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 CMakeFiles/executable.dir/src/main.cpp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+LOAD CMakeFiles/executable.dir/src/cal_grades.cpp.o
+LOAD CMakeFiles/executable.dir/src/main.cpp.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib64/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000318                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000318       0x1c
+ *(.interp)
+ .interp        0x0000000000000318       0x1c /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.property
+                0x0000000000000338       0x20
+ .note.gnu.property
+                0x0000000000000338       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000358       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000358       0x24 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x000000000000037c       0x20
+ .note.ABI-tag  0x000000000000037c       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000003a0       0x34
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000003a0       0x34 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x00000000000003d8      0x330
+ *(.dynsym)
+ .dynsym        0x00000000000003d8      0x330 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000000708      0x5f4
+ *(.dynstr)
+ .dynstr        0x0000000000000708      0x5f4 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x0000000000000cfc       0x44
+ *(.gnu.version)
+ .gnu.version   0x0000000000000cfc       0x44 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x0000000000000d40        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000d40        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x0000000000000d40       0xa0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000d40       0xa0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x0000000000000de0      0x150
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000de0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x0000000000000de0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x0000000000000de0       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000df8       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000000e10       0xa8 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000000eb8       0x30 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000000ee8        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x0000000000000ee8       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x0000000000000f00       0x30 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.eh_frame
+                0x0000000000000f30        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000000f30      0x1f8
+ *(.rela.plt)
+ .rela.plt      0x0000000000000f30      0x1f8 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.iplt)
+
+.relr.dyn
+ *(.relr.dyn)
+                0x0000000000002000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000002000       0x17
+ *(SORT_NONE(.init))
+ .init          0x0000000000002000       0x12 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+                0x0000000000002000                _init
+ .init          0x0000000000002012        0x5 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000002020      0x160
+ *(.plt)
+ .plt           0x0000000000002020      0x160 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000002030                operator new[](unsigned long)@@GLIBCXX_3.4
+                0x0000000000002040                std::istream::operator>>(short&)@@GLIBCXX_3.4
+                0x0000000000002050                strlen@@GLIBC_2.2.5
+                0x0000000000002060                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()@@GLIBCXX_3.4.21
+                0x0000000000002070                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_set_length(unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000002080                std::__throw_logic_error(char const*)@@GLIBCXX_3.4
+                0x0000000000002090                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_local_data()@@GLIBCXX_3.4.21
+                0x00000000000020a0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data(char*)@@GLIBCXX_3.4.21
+                0x00000000000020b0                __cxa_atexit@@GLIBC_2.2.5
+                0x00000000000020c0                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <char, std::char_traits<char>, std::allocator<char> >(std::basic_ostream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)@@GLIBCXX_3.4.21
+                0x00000000000020d0                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)@@GLIBCXX_3.4
+                0x00000000000020e0                std::ostream::operator<<(std::ostream& (*)(std::ostream&))@@GLIBCXX_3.4
+                0x00000000000020f0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@@GLIBCXX_3.4.21
+                0x0000000000002100                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_data() const@@GLIBCXX_3.4.21
+                0x0000000000002110                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_S_copy_chars(char*, char const*, char const*)@@GLIBCXX_3.4.21
+                0x0000000000002120                std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char)@@GLIBCXX_3.4
+                0x0000000000002130                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()@@GLIBCXX_3.4.21
+                0x0000000000002140                operator delete[](void*)@@GLIBCXX_3.4
+                0x0000000000002150                _Unwind_Resume@@GCC_3.0
+                0x0000000000002160                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000002170                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_capacity(unsigned long)@@GLIBCXX_3.4.21
+ *(.iplt)
+
+.plt.got        0x0000000000002180        0x8
+ *(.plt.got)
+ .plt.got       0x0000000000002180        0x8 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000002180                __cxa_finalize@@GLIBC_2.2.5
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000002190      0x80f
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000002190       0x22 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000002190                _start
+ .text          0x00000000000021b2        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x00000000000021b2        0xe 
+ .text          0x00000000000021c0       0xb9 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .text          0x0000000000002279       0x49 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+                0x0000000000002279                cal_grades(short)
+ .text          0x00000000000022c2      0x41c CMakeFiles/executable.dir/src/main.cpp.o
+                0x00000000000022c2                main
+ .text._ZNSt11char_traitsIcE6lengthEPKc
+                0x00000000000026de       0x32 CMakeFiles/executable.dir/src/main.cpp.o
+                0x00000000000026de                std::char_traits<char>::length(char const*)
+ .text._ZN9__gnu_cxx11char_traitsIcE6lengthEPKc
+                0x0000000000002710       0x46 CMakeFiles/executable.dir/src/main.cpp.o
+                0x0000000000002710                __gnu_cxx::char_traits<char>::length(char const*)
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderD2Ev
+                0x0000000000002756       0x24 CMakeFiles/executable.dir/src/main.cpp.o
+                0x0000000000002756                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+                0x0000000000002756                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_Alloc_hider::~_Alloc_hider()
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+                0x000000000000277a       0xa0 CMakeFiles/executable.dir/src/main.cpp.o
+                0x000000000000277a                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+                0x000000000000277a                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+ .text._ZN9__gnu_cxx11char_traitsIcE2eqERKcS3_
+                0x000000000000281a       0x21 CMakeFiles/executable.dir/src/main.cpp.o
+                0x000000000000281a                __gnu_cxx::char_traits<char>::eq(char const&, char const&)
+ *fill*         0x000000000000283b        0x1 
+ .text._ZNSt15__new_allocatorIcED2Ev
+                0x000000000000283c        0xb CMakeFiles/executable.dir/src/main.cpp.o
+                0x000000000000283c                std::__new_allocator<char>::~__new_allocator()
+                0x000000000000283c                std::__new_allocator<char>::~__new_allocator()
+ *fill*         0x0000000000002847        0x1 
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardC2EPS4_
+                0x0000000000002848       0x1a CMakeFiles/executable.dir/src/main.cpp.o
+                0x0000000000002848                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+                0x0000000000002848                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::_Guard(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+ .text._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD2Ev
+                0x0000000000002862       0x2a CMakeFiles/executable.dir/src/main.cpp.o
+                0x0000000000002862                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+                0x0000000000002862                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)::_Guard::~_Guard()
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+                0x000000000000288c      0x113 CMakeFiles/executable.dir/src/main.cpp.o
+                0x000000000000288c                void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ .text          0x000000000000299f        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .text          0x000000000000299f        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x00000000000029a0        0x9
+ *(SORT_NONE(.fini))
+ .fini          0x00000000000029a0        0x4 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+                0x00000000000029a0                _fini
+ .fini          0x00000000000029a4        0x5 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x0000000000003000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x0000000000003000       0xe9
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000000003000        0x4 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000003000                _IO_stdin_used
+ .rodata        0x0000000000003004        0x3 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ *fill*         0x0000000000003007        0x1 
+ .rodata        0x0000000000003008       0xe1 CMakeFiles/executable.dir/src/main.cpp.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000030ec       0x94
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000030ec       0x94 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000030ec                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000000003180      0x28c
+ *(.eh_frame)
+ .eh_frame      0x0000000000003180       0x30 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x00000000000031b0        0x0 
+ .eh_frame      0x00000000000031b0       0x40 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .eh_frame      0x00000000000031f0       0x18 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000003208       0x20 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000003228      0x1e0 CMakeFiles/executable.dir/src/main.cpp.o
+                                        0x1f8 (size before relaxing)
+ .eh_frame      0x0000000000003408        0x4 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ *(.eh_frame.*)
+
+.sframe         0x000000000000340c        0x0
+ *(.sframe)
+ .sframe        0x000000000000340c        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.sframe.*)
+
+.gcc_except_table
+                0x000000000000340c       0x34
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+                0x000000000000340c        0xe CMakeFiles/executable.dir/src/main.cpp.o
+ .gcc_except_table._ZZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tagEN6_GuardD2Ev
+                0x000000000000341a        0x4 CMakeFiles/executable.dir/src/main.cpp.o
+ .gcc_except_table._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+                0x000000000000341e       0x13 CMakeFiles/executable.dir/src/main.cpp.o
+ .gcc_except_table
+                0x0000000000003431        0xf CMakeFiles/executable.dir/src/main.cpp.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000004d98                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.sframe
+ *(.sframe)
+ *(.sframe.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000004d98        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000004d98        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000004d98       0x10
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000004d98        0x8 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .init_array    0x0000000000004da0        0x8 CMakeFiles/executable.dir/src/main.cpp.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000004da8        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000004da8        0x8 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000004db0        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000004db0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynamic        0x0000000000004db0      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000004db0      0x200 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000004db0                _DYNAMIC
+
+.got            0x0000000000004fb0       0x38
+ *(.got)
+ .got           0x0000000000004fb0       0x38 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000004fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000004fe8       0xc0
+ *(.got.plt)
+ .got.plt       0x0000000000004fe8       0xc0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000004fe8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000000050a8       0x18
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000000050a8        0x4 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000050a8                data_start
+                0x00000000000050a8                __data_start
+ .data          0x00000000000050ac        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+ .data          0x00000000000050ac        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ *fill*         0x00000000000050ac        0x4 
+ .data.rel.local
+                0x00000000000050b0        0x8 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+                0x00000000000050b0                __dso_handle
+ .data          0x00000000000050b8        0x0 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ .data          0x00000000000050b8        0x0 CMakeFiles/executable.dir/src/main.cpp.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x00000000000050b8        0x8 CMakeFiles/executable.dir/src/main.cpp.o
+                0x00000000000050b8                DW.ref.__gxx_personality_v0
+ .data          0x00000000000050c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .data          0x00000000000050c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x00000000000050c0        0x0
+ .tm_clone_table
+                0x00000000000050c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .tm_clone_table
+                0x00000000000050c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+
+.data1
+ *(.data1)
+                0x00000000000050c0                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x00000000000050c0                . = ALIGN (ALIGNOF (NEXT_SECTION))
+                0x00000000000050c0                __bss_start = .
+
+.bss            0x00000000000050c0      0x380
+ *(.dynbss)
+ .dynbss        0x00000000000050c0      0x238 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000050c0                std::cout@@GLIBCXX_3.4
+                0x00000000000051e0                std::cin@@GLIBCXX_3.4
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000000052f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x00000000000052f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o
+ .bss           0x00000000000052f8        0x1 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+ .bss           0x00000000000052f9        0x0 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ *fill*         0x00000000000052f9        0x7 
+ .bss           0x0000000000005300      0x140 CMakeFiles/executable.dir/src/main.cpp.o
+                0x0000000000005300                i
+                0x0000000000005304                marks
+                0x0000000000005306                grade
+                0x0000000000005320                subject[abi:cxx11]
+ .bss           0x0000000000005440        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+ .bss           0x0000000000005440        0x0 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x0000000000005440                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000005440                . = ALIGN (0x8)
+                0x0000000000005440                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000007440        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000007440                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000007440                . = ALIGN (0x8)
+                0x0000000000005440                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000007440                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x1f
+ *(.comment)
+ .comment       0x0000000000000000       0x1f /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o
+                                         0x20 (size before relaxing)
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ .comment       0x000000000000001f       0x20 CMakeFiles/executable.dir/src/main.cpp.o
+ .comment       0x000000000000001f       0x20 /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000       0xf0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x30 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ .debug_aranges
+                0x0000000000000030       0xc0 CMakeFiles/executable.dir/src/main.cpp.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xaacd
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x4d8f CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ .debug_info    0x0000000000004d8f     0x5d3e CMakeFiles/executable.dir/src/main.cpp.o
+
+.debug_abbrev   0x0000000000000000     0x10b9
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x6c7 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ .debug_abbrev  0x00000000000006c7      0x9f2 CMakeFiles/executable.dir/src/main.cpp.o
+
+.debug_line     0x0000000000000000      0x634
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x178 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+ .debug_line    0x0000000000000178      0x4bc CMakeFiles/executable.dir/src/main.cpp.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x732c
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x732c CMakeFiles/executable.dir/src/cal_grades.cpp.o
+                                       0x6879 (size before relaxing)
+ .debug_str     0x000000000000732c     0x7669 CMakeFiles/executable.dir/src/main.cpp.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_addr
+ *(.debug_addr)
+
+.debug_line_str
+                0x0000000000000000      0x3d4
+ *(.debug_line_str)
+ .debug_line_str
+                0x0000000000000000      0x3d4 CMakeFiles/executable.dir/src/cal_grades.cpp.o
+                                        0x3c8 (size before relaxing)
+ .debug_line_str
+                0x00000000000003d4      0x41f CMakeFiles/executable.dir/src/main.cpp.o
+
+.debug_loclists
+ *(.debug_loclists)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_names
+ *(.debug_names)
+
+.debug_rnglists
+                0x0000000000000000       0x74
+ *(.debug_rnglists)
+ .debug_rnglists
+                0x0000000000000000       0x74 CMakeFiles/executable.dir/src/main.cpp.o
+
+.debug_str_offsets
+ *(.debug_str_offsets)
+
+.debug_sup
+ *(.debug_sup)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(bin/executable elf64-x86-64)

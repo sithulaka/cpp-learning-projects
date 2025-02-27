@@ -3,8 +3,8 @@
 
 bool result;
 std::string seat_no;
-static char row_letter;
-static short seat_num;
+char row_letter;
+short seat_num;
 
 int main() {
 

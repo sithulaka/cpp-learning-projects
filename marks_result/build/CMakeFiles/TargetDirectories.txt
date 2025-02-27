@@ -1,0 +1,3 @@
+/home/shoon/Work/div/cpp/marks_result/build/CMakeFiles/executable.dir
+/home/shoon/Work/div/cpp/marks_result/build/CMakeFiles/edit_cache.dir
+/home/shoon/Work/div/cpp/marks_result/build/CMakeFiles/rebuild_cache.dir

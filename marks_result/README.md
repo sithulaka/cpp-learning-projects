@@ -1,11 +1,10 @@
-# PlaneManagement
+# marks_result
 
 ## Overview
-**PlaneManagement** is a C++ project that simulates an airplane management system. It handles functionalities such as:
-- Adding, updating, and deleting planes
-- Managing flight schedules
-- Tracking passenger details
-- Displaying flight statistics
+**marks_result** is a simple C++ program for managing student marks and calculating results. It enables users to:
+- Input student marks
+- Calculate total and average scores
+- Display individual and class performance
 
 ## 🔧 Prerequisites
 Ensure you have the following installed:
@@ -26,11 +25,10 @@ brew install cmake git
 
 ## 📂 Project Structure
 ```
-PlaneManagement/
+marks_result/
 │── build/        # Compiled files
 │── docs/         # Documentation files
 │── include/      # Header files (.h)
-│── lib/          # Libraries
 │── src/          # Source code (.cpp)
 │── build.sh      # Script to build the project
 │── run.sh        # Script to execute the program
@@ -42,7 +40,7 @@ PlaneManagement/
 
 ### **Linux/macOS**
 ```sh
-cd PlaneManagement
+cd marks_result
 chmod +x build.sh run.sh
 ./build.sh  # Builds the project
 ./run.sh    # Runs the program
@@ -51,17 +49,15 @@ chmod +x build.sh run.sh
 ### **Windows**
 - Open **Git Bash** or **PowerShell**.
 ```sh
-cd PlaneManagement
+cd marks_result
 sh build.sh  # Builds the project
 sh run.sh    # Runs the program
 ```
 
 ## Features
-- **Add Plane:** Allows adding new planes to the system.
-- **Update Plane:** Modify plane details.
-- **Delete Plane:** Remove a plane from the system.
-- **Manage Flights:** Track flight schedules and passenger details.
-- **Statistics:** Display flight statistics and analysis.
+- **Input Marks:** Enter student scores for multiple subjects.
+- **Calculate Total & Average:** Computes total and average marks per student.
+- **Display Results:** Shows student-wise and class performance.
 
 ## Contribution
 Feel free to contribute by adding new features, fixing bugs, or improving the documentation!

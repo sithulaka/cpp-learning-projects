@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -O0 -Wall -Wextra -pedantic -g  -Wl,-Map,output.map CMakeFiles/executable.dir/src/cal_grades.cpp.o CMakeFiles/executable.dir/src/main.cpp.o -o bin/executable
