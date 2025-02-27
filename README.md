@@ -1,6 +1,6 @@
 # cpp-learning-projects
 
-## Overview
+## 🔹 Overview
 This repository contains multiple C++ projects aimed at learning and improving C++ development skills. The projects include:
 
 1. **PlaneManagement** - A project related to airplane management systems.
@@ -25,9 +25,9 @@ brew install cmake git
 - Install **MinGW** (for GCC) and **CMake**.
 - Use Git Bash or PowerShell for running commands.
 
-## How to Clone the Repository
+## 📥 How to Clone the Repository
 ```sh
-git clone https://github.com/your-username/cpp-learning-projects.git
+git clone https://github.com/sithulaka/cpp-learning-projects.git
 cd cpp-learning-projects
 ```
 
@@ -46,7 +46,7 @@ project-name/
 │── README.md     # Project documentation
 ```
 
-## 🛠️ How to Build and Run
+## 🚀 How to Build and Run
 
 ### **Linux/macOS**
 ```sh
@@ -64,10 +64,10 @@ sh build.sh  # Builds the project
 sh run.sh    # Runs the program
 ```
 
-## Contribution
+## 🤝 Contribution
 Feel free to contribute to this repository by improving existing projects or adding new ones!
 
-## Connect with me
+## 🌐 Connect with me
 <p align="left">
 <a href="https://linkedin.com/in/sithulaka" target="blank"><img align="center" src="https://github.com/sithulaka/sithulaka/blob/main/image/icon/linked-in-alt.svg" alt="sithulaka" height="30" width="40" /></a>
 <a href="https://twitter.com/sithulaka" target="blank"><img align="center" src="https://github.com/sithulaka/sithulaka/blob/main/image/icon/twitter.svg" alt="sithulaka" height="30" width="40" /></a>
