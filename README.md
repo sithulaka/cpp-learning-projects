@@ -8,7 +8,7 @@ This repository contains multiple C++ projects aimed at learning and improving C
 
 Each project follows a structured directory layout and uses CMake for building and executing.
 
-## 🔧 Prerequisites
+## ⚙️ Prerequisites
 Before running any of the projects, ensure you have the following installed on your system:
 
 ### **Linux/macOS**
