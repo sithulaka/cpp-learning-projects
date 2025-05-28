@@ -1,7 +1,13 @@
 #!/bin/bash
 
-# Define project name (you can modify this to accept arguments if needed)
-PROJECT_NAME="new_project" 
+# Check if project name is provided as argument
+if [ $# -eq 0 ]; then
+    echo "Error: Project name not provided"
+    echo "Usage: $0 <project_name>"
+    exit 1
+fi
+
+PROJECT_NAME="$1"
 
 # Create the main project directory
 mkdir "$PROJECT_NAME"
