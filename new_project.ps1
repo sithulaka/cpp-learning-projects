@@ -17,6 +17,46 @@ New-Item -ItemType Directory -Path "$ProjectName\docs" -Force
 New-Item -ItemType File -Path "$ProjectName\README.md" -Force
 New-Item -ItemType File -Path "$ProjectName\.gitignore" -Force
 
+# Create default .gitignore content
+$gitignoreContent = @"
+# Build directories and files
+build/
+!build/bin/
+!build/bin/**
+*.o
+*.obj
+*.ilk
+*.pdb
+*.exe
+!build/bin/*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+"@
+
+Set-Content -Path "$ProjectName\.gitignore" -Value $gitignoreContent
+
 # Create a CMakeLists.txt file with the specified content
 $cmakeContent = @"
 cmake_minimum_required(VERSION 3.10)

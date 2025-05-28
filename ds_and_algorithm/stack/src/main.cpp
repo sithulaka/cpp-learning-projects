@@ -1,12 +1,12 @@
 #include <iostream>
-#include "Stack/Stack.cpp"
+#include "../include/stack.h"
 
 using namespace std;
 
-
 string decimalToBinary(int num) {
-    if (num == 0) return "";
+    if (num == 0) return "0";
 
+    Stack s(100);
     int remain;
     string result = "";
 
@@ -26,9 +26,9 @@ string decimalToBinary(int num) {
 }
 
 int main() {
-    Stack s(100);
     int num;
     cout << "Enter a decimal number: ";
     cin >> num;
     cout << "Binary number: " << decimalToBinary(num) << endl;
+    return 0;
 }

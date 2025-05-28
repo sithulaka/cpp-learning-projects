@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(ds_and_algorithm\stack)
+project(ds_and_algorithm_stack)
 
 # Set C++ standard
 set(CMAKE_CXX_STANDARD 17)
@@ -18,11 +18,17 @@ add_executable(executable ${SOURCES} ${HEADERS})
 # Include directories
 include_directories(include)
 
-# Enable debugging flags
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 -Wall -Wextra -pedantic")
+# Set compiler flags based on compiler type
+if(MSVC)
+  # MSVC compiler flags
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4 /permissive-")
+  set(CMAKE_CXX_FLAGS_DEBUG "/Od /Zi /DEBUG")
+else()
+  # GCC/Clang compiler flags
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 -Wall -Wextra -pedantic")
+  # Enable assembly output for GCC/Clang
+  set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Map,output.map")
+endif()
 
-# Enable assembly output
-set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -Wl,-Map,output.map")
-
-# Debug symbols (useful for GDB)
+# Debug symbols
 set(CMAKE_BUILD_TYPE Debug)

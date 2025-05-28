@@ -1,9 +1,10 @@
 #pragma once
+#include <string>
+#include <iostream>
 
 using namespace std;
 
-class Stack() {
-
+class Stack {
     string *stack;
     int index;
     int size;
@@ -20,4 +21,4 @@ class Stack() {
     int get_size();
     void clean();
     ~Stack();
-}
+};

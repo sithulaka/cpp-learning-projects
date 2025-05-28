@@ -1,4 +1,4 @@
-#include "stack.h"
+#include "../../include/stack.h"
 
 Stack::Stack() {
     stack = new string[100];
@@ -28,12 +28,13 @@ string Stack::pop() {
 }
 
 string Stack::peek() {
+    if (index == 0) return "";
     return stack[index];
 }
 
 void Stack::get_stack() {
     cout << "Stack: ";
-    for (int i = 0; i < (index+1); i++) {
+    for (int i = 0; i < index; i++) {
         cout << stack[i] << " ";
     }
     cout << endl;

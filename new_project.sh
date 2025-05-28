@@ -10,7 +10,7 @@ fi
 PROJECT_NAME="$1"
 
 # Create the main project directory
-mkdir "$PROJECT_NAME"
+mkdir -p "$PROJECT_NAME"
 
 # Create subdirectories for source files, headers, build, libraries, and documentation
 mkdir -p "$PROJECT_NAME/src"
@@ -19,9 +19,46 @@ mkdir -p "$PROJECT_NAME/build"
 mkdir -p "$PROJECT_NAME/lib"
 mkdir -p "$PROJECT_NAME/docs"
 
-# Create initial files: README.md, .gitignore, CMakeLists.txt, Makefile
+# Create initial files: README.md and .gitignore
 touch "$PROJECT_NAME/README.md"
-touch "$PROJECT_NAME/.gitignore"
+
+# Create .gitignore with default content
+cat <<EOL > "$PROJECT_NAME/.gitignore"
+# Build directories and files
+build/
+!build/bin/
+!build/bin/**
+*.o
+*.obj
+*.ilk
+*.pdb
+*.exe
+!build/bin/*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+EOL
 
 # Create a CMakeLists.txt file with the specified content
 cd "$PROJECT_NAME"
