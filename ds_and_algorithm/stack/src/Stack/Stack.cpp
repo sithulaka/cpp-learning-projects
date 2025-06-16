@@ -16,6 +16,10 @@ Stack::~Stack() {
 }
 
 void Stack::push(string item) {
+    if (index == size) {
+        cout << "Stack overflow! Cannot push item: " << item << endl;
+        return;
+    }
     stack[index] = item;
     index++;
 }
